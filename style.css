@@ -1,0 +1,27 @@
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 8%;
+    background:#6b0f0f;
+}
+
+.logo h2{
+    color:#d8a24a;
+    font-size:32px;
+}
+
+.logo span{
+    font-size:12px;
+    letter-spacing:2px;
+}
+
+nav ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+nav a{
+    color:white;
+}
