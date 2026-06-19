@@ -1,27 +1,64 @@
-header{
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+.parisienne-regular {
+  font-family: "Parisienne", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: gold;
+  font-size: 42px;
+}
+
+
+.container{
+    color:#fff;
+}
+
+.header{
     display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:25px 8%;
-    background:#6b0f0f;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding:10px 60px;
 }
 
-.logo h2{
-    color:#d8a24a;
-    font-size:32px;
+.links{
+    list-style: none;
+    padding-left:0;
+    display: flex;
+    gap:20px;
 }
 
-.logo span{
-    font-size:12px;
-    letter-spacing:2px;
+.link a{
+    color:#fff;
+    text-decoration: none;
+    font-size: larger;
 }
 
-nav ul{
-    display:flex;
-    gap:30px;
-    list-style:none;
+.action-button-btn{
+    background: transparent;
+    border:1px solid gold;
+    color: #fff;
+    padding:10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-nav a{
-    color:white;
+.banner {
+    border:1px solid red;
+    background-color: black;
+    padding:10px 60px;
+    background: url('./assets/chicken-banner.png');
+    background-position: ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    background-attachment: fixed;
+}
+
+.explore-button-btn {
+    background: orange;
+    color: #fff;
+    padding:10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
 }
