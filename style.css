@@ -28,6 +28,7 @@
     gap:20px;
 }
 
+
 .link a{
     color:#fff;
     text-decoration: none;
@@ -76,9 +77,15 @@
   border:1px solid;
   display:flex;
   align-items:center;
+  padding: 2px;
   
 }
 
 .menu-items{
     color: black;
+}
+.Specials{
+
+  color:black;
+
 }
